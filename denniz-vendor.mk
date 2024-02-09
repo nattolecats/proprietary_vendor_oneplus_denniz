@@ -66,7 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/odm/bin/hw/vendor.oplus.hardware.cammidasservice@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.cammidasservice@1.0-service \
     vendor/oneplus/denniz/proprietary/odm/bin/hw/vendor.oplus.hardware.charger@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.charger@1.0-service \
     vendor/oneplus/denniz/proprietary/odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service \
-    vendor/oneplus/denniz/proprietary/odm/bin/hw/vendor.oplus.hardware.ormsHalService-aidl-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.ormsHalService-aidl-service \
     vendor/oneplus/denniz/proprietary/odm/bin/hw/vendor.oplus.hardware.performance@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.performance@1.0-service \
     vendor/oneplus/denniz/proprietary/odm/etc/audio/audio_device/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/audio_device.xml \
     vendor/oneplus/denniz/proprietary/odm/etc/audio/audio_device/common/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/common/audio_device.xml \
@@ -685,7 +684,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/odm/etc/init/init.camera_update.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_update.rc \
     vendor/oneplus/denniz/proprietary/odm/etc/init/init.oplus.reserve.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oplus.reserve.rc \
     vendor/oneplus/denniz/proprietary/odm/etc/init/init.vendor.oplus.connectivity.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.vendor.oplus.connectivity.rc \
-    vendor/oneplus/denniz/proprietary/odm/etc/init/ormsHalService-default.rc:$(TARGET_COPY_OUT_ODM)/etc/init/ormsHalService-default.rc \
     vendor/oneplus/denniz/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/oneplus/denniz/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice@1.0-service.rc \
     vendor/oneplus/denniz/proprietary/odm/etc/init/vendor.oplus.hardware.charger@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger@1.0-service.rc \
@@ -700,7 +698,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/odm/etc/nfc/pnscr/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_ODM)/etc/nfc/pnscr/libnfc-nxp-pnscr.conf \
     vendor/oneplus/denniz/proprietary/odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_57:$(TARGET_COPY_OUT_ODM)/etc/nfc/sn100u.bin_sn100t_fw_01_10_57 \
     vendor/oneplus/denniz/proprietary/odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_68:$(TARGET_COPY_OUT_ODM)/etc/nfc/sn100u.bin_sn100t_fw_01_10_68 \
-    vendor/oneplus/denniz/proprietary/odm/etc/orms/orms_permission_config.xml:$(TARGET_COPY_OUT_ODM)/etc/orms/orms_permission_config.xml \
     vendor/oneplus/denniz/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/oneplus/denniz/proprietary/odm/etc/wifi/txpowerctrl.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/txpowerctrl.cfg \
     vendor/oneplus/denniz/proprietary/odm/etc/wifi/wifi.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/wifi.cfg \
@@ -1069,9 +1066,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/odm/lib/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.ims@1.0.so \
     vendor/oneplus/denniz/proprietary/odm/lib/vendor.oplus.hardware.mtkmodemaci@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.mtkmodemaci@1.0.so \
     vendor/oneplus/denniz/proprietary/odm/lib/vendor.oplus.hardware.oplusSensor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.oplusSensor@1.0.so \
-    vendor/oneplus/denniz/proprietary/odm/lib/vendor.oplus.hardware.orms.ormsHalService@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.orms.ormsHalService@1.0.so \
     vendor/oneplus/denniz/proprietary/odm/lib/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.orms@1.0.so \
-    vendor/oneplus/denniz/proprietary/odm/lib/vendor.oplus.hardware.ormsHalService-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.ormsHalService-V1-ndk_platform.so \
     vendor/oneplus/denniz/proprietary/odm/lib/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.osense.client@1.0.so \
     vendor/oneplus/denniz/proprietary/odm/lib/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.performance@1.0.so \
     vendor/oneplus/denniz/proprietary/odm/lib/vendor.oplus.hardware.radio-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.radio-V1-ndk_platform.so \
@@ -1453,9 +1448,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/odm/lib64/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.ims@1.0.so \
     vendor/oneplus/denniz/proprietary/odm/lib64/vendor.oplus.hardware.mtkmodemaci@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.mtkmodemaci@1.0.so \
     vendor/oneplus/denniz/proprietary/odm/lib64/vendor.oplus.hardware.oplusSensor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.oplusSensor@1.0.so \
-    vendor/oneplus/denniz/proprietary/odm/lib64/vendor.oplus.hardware.orms.ormsHalService@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms.ormsHalService@1.0.so \
     vendor/oneplus/denniz/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
-    vendor/oneplus/denniz/proprietary/odm/lib64/vendor.oplus.hardware.ormsHalService-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.ormsHalService-V1-ndk_platform.so \
     vendor/oneplus/denniz/proprietary/odm/lib64/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.osense.client@1.0.so \
     vendor/oneplus/denniz/proprietary/odm/lib64/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.performance@1.0.so \
     vendor/oneplus/denniz/proprietary/odm/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so \
@@ -1478,8 +1471,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/system_ext/lib/vendor.oplus.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.camera.slogan@1.0.so \
     vendor/oneplus/denniz/proprietary/system_ext/lib/vendor.oplus.hardware.cameraMDM@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.cameraMDM@1.0.so \
     vendor/oneplus/denniz/proprietary/system_ext/lib/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.commondcs@1.0.so \
-    vendor/oneplus/denniz/proprietary/system_ext/lib/vendor.oplus.hardware.orms.ormsHalService@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.orms.ormsHalService@1.0.so \
-    vendor/oneplus/denniz/proprietary/system_ext/lib/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.orms@1.0.so \
     vendor/oneplus/denniz/proprietary/system_ext/lib/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.osense.client@1.0.so \
     vendor/oneplus/denniz/proprietary/system_ext/lib64/libHeifEncoderWrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libHeifEncoderWrapper.so \
     vendor/oneplus/denniz/proprietary/system_ext/lib64/libHeifWinBufExchg-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libHeifWinBufExchg-jni.so \
@@ -3247,12 +3238,9 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-base \
     mediatek-telephony-common \
     oplus-support-wrapper \
-    vendor.oplus.hardware.ormsHalService-V1-java \
     com.android.hotwordenrollment.common.util \
     com.oplus.camera.unit.sdk.adapter \
     com.oplus.camera.unit.sdk \
-    vendor.oplus.hardware.orms-V1.0-java \
-    vendor.oplus.hardware.orms.ormsHalService-V1.0-java \
     vendor.oplus.hardware.performance-V1.0-java \
     android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu \
     android.hardware.wifi@1.0-service \
@@ -3264,5 +3252,4 @@ PRODUCT_PACKAGES += \
     manifest_oplus_cammidasservice \
     manifest_oplus_charger \
     manifest_oplus_fingerprint \
-    manifest_oplus_performance \
-    ormsHalService-default
+    manifest_oplus_performance
