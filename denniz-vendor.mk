@@ -3237,6 +3237,7 @@ PRODUCT_PACKAGES += \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common \
+    oplus-framework \
     oplus-support-wrapper \
     com.android.hotwordenrollment.common.util \
     com.oplus.camera.unit.sdk.adapter \

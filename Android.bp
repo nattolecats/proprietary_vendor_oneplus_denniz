@@ -197,6 +197,12 @@ dex_import {
 }
 
 dex_import {
+	name: "oplus-framework",
+	owner: "oneplus",
+	jars: ["proprietary/framework/oplus-framework.jar"],
+}
+
+dex_import {
 	name: "oplus-support-wrapper",
 	owner: "oneplus",
 	jars: ["proprietary/framework/oplus-support-wrapper.jar"],
