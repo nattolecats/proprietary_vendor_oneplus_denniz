@@ -3072,6 +3072,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib64/liboplus_mtkcam_lightsensorprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboplus_mtkcam_lightsensorprovider.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/liboplus_platform_hwi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboplus_platform_hwi.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/liboppo_arcSoftBokehEngine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppo_arcSoftBokehEngine.so \
+    vendor/oneplus/denniz/proprietary/vendor/lib64/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfctl_vendor.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixelflinger.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpkm.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhalwrap_vendor.so \
